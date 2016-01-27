@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="index.css" >
+				
+	</head>
+	<body>
+	
+		<div class="PageIntro">
+			<header>
+				<nav class="menu">
+					<ul>
+						<li><a href="#">WORKS</a></li>				
+						<li><a href="cv.html">ABOUT US</a> </li>
+						<li><a href="#">CONTACT</a></li>
+					</ul>
+				</nav>
+			</header>
+		
+		
+			<section class="titre">
+				<h1> Bienvenue </h1>
+				<h2> Sur notre Portfolio </h2>
+				<h2> Nous sommes ÃÂ©tudiant en DUT Informatique </h2>
+				<a class="lireplus" href="#"> Lire plus </a>
+			</section>
+		
+		</div>	
+	</body>
+</html>
