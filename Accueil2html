@@ -11,20 +11,22 @@
 	
 		<div class="PageIntro">
 			<header>
-				<nav class="menu">
+			<div class="menu">
+				<nav>
 					<ul>
 						<li><a href="#">WORKS</a></li>				
 						<li><a href="cv.html">ABOUT US</a> </li>
 						<li><a href="#">CONTACT</a></li>
 					</ul>
 				</nav>
+				</div>
 			</header>
 		
 		
 			<section class="titre">
 				<h1> Bienvenue </h1>
 				<h2> Sur notre Portfolio </h2>
-				<h2> Nous sommes ÃÂ©tudiant en DUT Informatique </h2>
+				<h2> Nous sommes ÃÂÃÂÃÂÃÂ©tudiant en DUT Informatique </h2>
 				<a class="lireplus" href="#"> Lire plus </a>
 			</section>
 		
