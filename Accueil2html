@@ -5,28 +5,32 @@
 		<meta charset="UTF-8">
 		<title>Portfolio</title>
 		<link rel="stylesheet" type="text/css" href="index.css" >
+	<title>Portfolio</title>
 				
 	</head>
 	<body>
 	
 		<div class="PageIntro">
 			<header>
-			<div class="menu">
-				<nav>
-					<ul>
-						<li><a href="#">WORKS</a></li>				
-						<li><a href="cv.html">ABOUT US</a> </li>
-						<li><a href="#">CONTACT</a></li>
-					</ul>
-				</nav>
-				</div>
-			</header>
+			<div class="menu">								
+							<div>
+								<a href="#">WORKS</a>
+						 </div>						
+									<div>
+										<a href="cv.html">ABOUT US</a>
+								 </div>								
+										<div>
+											<a href="#">CONTACT</a>
+									 </div>	
+						
+					 </div>
+					</header>
 		
 		
 			<section class="titre">
 				<h1> Bienvenue </h1>
 				<h2> Sur notre Portfolio </h2>
-				<h2> Nous sommes ÃÂÃÂÃÂÃÂ©tudiant en DUT Informatique </h2>
+				<h2> Nous sommes etudiant en DUT Informatique </h2>
 				<a class="lireplus" href="#"> Lire plus </a>
 			</section>
 		
