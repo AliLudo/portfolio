@@ -1,0 +1,63 @@
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="contact.css" >
+
+  </head>
+  <body>
+    <div class="menu">
+			<ul>
+			  <li><a href="index.html"> ACCUEIL </a></li>
+			</ul>
+			<ul>
+    	 	<li> <a href="#"> A PROPOS </a>
+          <ul>
+            <li><a href="#">ALI OZCAN</a></li>
+            <li><a href="mickael.html">MICKAEL REILHAC</a></li>
+            <li><a href="ludo.html">LUDOVIC CARLU</a></li>
+			    </ul>
+        </li>		
+			</ul>
+			<ul>
+				<li><a href="map.html" onclick="RetourneAdresse();"> CONTACT </a></li>
+			</ul>
+		</div>
+    
+    <section>
+			<article>
+        <h1> Pour nous contacter </h1>
+				<div id="infoiut">	
+					<p> IUT Sénart </p>
+      		<iframe id="map" src="https://maps.google.com/maps?hl=fr&q=36-37 Rue Georges Charpak, 77127 Lieusaint, France&ie=UTF8&t=m&z=15&iwloc=B&output=embed" ></iframe>   
+				</div>
+				<div id="infoludo">
+					<p> Ludovic CARLU </p>
+					<iframe id="map" src="https://maps.google.com/maps?hl=fr&q=26 rue des hirondelles, 77340 Pontault Combault&ie=UTF8&t=m&z=15&iwloc=B&output=embed" ></iframe>
+					<p>
+						Email : ludoviccarlu@gmail.com <br />
+						Twitter : ... <br />
+						Telephone : ... <br />
+					</p>
+				</div>
+				<div id = "infomika" >
+				<p> Mickael REILHAC	</p>
+					<iframe id="map" src="https://maps.google.com/maps?hl=fr&q=30 avenue fernand sastre 91280 saint pierre du perray&ie=UTF8&t=m&z=15&iwloc=B&output=embed" ></iframe>
+					<p>
+						Email : michael.reilhac@live.fr <br />
+						Twitter : ... <br />
+						Telephone : ... <br />
+					</p>
+				</div>
+				<div id = "infoali" >
+					<p> Ali OZCAN	</p>
+					<iframe id="map" src="https://maps.google.com/maps?hl=fr&q=13 rue de l'Orme sainte Marie &ie=UTF8&t=m&z=15&iwloc=B&output=embed"></iframe>
+					<p>
+						Email : ozcan.ali94@gmail.com <br />
+						Twitter : ... <br />
+						Telephone : ... <br />
+					</p>
+				</div>
+      </article>
+    </section>  
+  </body>
