@@ -1,0 +1,135 @@
+/*https://www.web-font-generator.com/results?dir=40fbb74158fa999227e27623af604bd9*/
+body {
+	font-family: Helvetica,Arial,serif;	
+}
+
+@font-face {
+	font-family: 'GeosansLightRegular';
+	src:url('GeosansLight.ttf');
+}
+img{
+	width:100%;
+}
+.PageIntro{
+	margin:-10px;
+}
+
+
+
+#Pagesuivante{
+	background-image:url("http://img0.mxstatic.com/wallpapers/44c1b4f2f52c345a310e5e99685a2ac8_large.jpeg");
+	padding-top:100%;
+	background-size:cover;
+	width:100%;
+	padding-left:10px;
+	
+}
+
+#Ludovic {
+	margin-top:-70%;
+	color:white;
+	text-align:center;
+	padding-bottom:10%;
+}
+#Mickael {
+	color:white;
+	text-align:center;
+	padding-bottom:10%;
+}
+#Ali {
+	color:white;
+	text-align:center;
+	padding-bottom:10%;	
+}
+
+.menu {
+	position:absolute;
+	top:0px;
+	right:0px;
+	font-size:13px;
+	text-align :center;
+	width:100%;
+	background-color:#262020;
+	opacity:0.7;
+	
+}
+
+.menu div {
+	display:inline-block;
+	color:white;	
+	text-decoration:none;
+}	
+
+.titre { 
+	right:100px;
+	left:100px;
+	margin-top:-40%;
+	font-family: "GeosansLightRegular";
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing:5px; 
+	color : white;
+}
+
+.lireplus:hover {
+	color:yellow;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    display:inline-block;
+}
+.titre a {
+	  text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    display:inline-block;
+}
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+div div a:hover {background: black;}
+li:hover ul {display: block;}
+ul li ul {
+	position: absolute;
+  width: 164px;
+  display: none;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+}
+ul li ul li a {display:block;} 
+ul li ul li a:hover {background: #666;}
+
+footer {
+	color: white;
+	text-align : center;
+	padding-bottom:10%;
+}
+footer a {
+	padding:20px;
+	color: white;
+	text-decoration:none;
+}
+
+.twitter {
+	background: transparent url("http://ahamoment-files.s3.amazonaws.com/assets/videos/icon-twitter-eeddaf5f53964c6f9ba9692dbb5cdc42.png") no-repeat ;
+	margin-right:15px;
+}
+.linkedin {
+	background: transparent url("http://www.dupagehabitat.org/images/LinkedInIcon_30x30.png") no-repeat;
+	margin-right:15px;
+}
+.facebook {
+	background: transparent url("http://www.southwickassociates.com/wp-content/uploads/2012/07/f_logo-30x30.png") no-repeat;
+	margin-right : 20px;
+}
