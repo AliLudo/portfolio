@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="index.css" >
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+		<script>
+			$(document).ready(function() {
+				$('.js-scrollTo').on('click', function() { 
+					var page = $(this).attr('href'); 
+					var speed = 750; 
+					$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); 
+					return false;
+				});
+			});
+ 		</script>	
+		<script>
+			function Clignote() {
+				myVar = setInterval(ChangeImage, 7000);
+			}
+
+			function ChangeImage() {
+				var newimg=document.getElementById("fond");
+				var src = newimg.getAttribute('src');
+
+				if (src == "http://img1.mxstatic.com/wallpapers/27555fdf69f74e30d639dffb43fbd06d_large.jpeg") {
+					newimg.setAttribute("src","http://img1.mxstatic.com/wallpapers/1ad2ac7fcfda8692bb7b1f7222b4a11d_large.jpeg");
+				}
+				if (src == "http://img1.mxstatic.com/wallpapers/1ad2ac7fcfda8692bb7b1f7222b4a11d_large.jpeg") {
+					newimg.setAttribute("src","http://www.freewallpaperfullhd.com/wp-content/uploads/2015/06/wallpapers/cold_winter_day-wallpaper-1920x1080.jpg");
+				}
+				if (src == "http://www.freewallpaperfullhd.com/wp-content/uploads/2015/06/wallpapers/cold_winter_day-wallpaper-1920x1080.jpg") {
+					newimg.setAttribute("src","http://www.magic4walls.com/wp-content/uploads/2013/12/Art-lightdrop-landscape-water-rocks-lake-planet-sunset-reflection-clouds.jpg");
+				}
+				if (src == "http://www.magic4walls.com/wp-content/uploads/2013/12/Art-lightdrop-landscape-water-rocks-lake-planet-sunset-reflection-clouds.jpg") {
+					newimg.setAttribute("src","http://img1.mxstatic.com/wallpapers/27555fdf69f74e30d639dffb43fbd06d_large.jpeg");
+				}
+			}
+		</script>	
+				
+		</head>
+		<body>
+		
+		<div class="PageIntro">
+			<img id="fond" src="http://img1.mxstatic.com/wallpapers/27555fdf69f74e30d639dffb43fbd06d_large.jpeg" alt="">	
+			<script>Clignote();</script>	
+			<div class="menu">
+				<ul>
+					<li><a href="index.html"> ACCUEIL </a></li>
+				</ul>
+				<ul>
+    	  	<li>
+						<a href="#"> A PROPOS </a>
+      			<ul>
+        			<li><a href="ali.html">ALI OZCAN</a></li>
+        			<li><a href="mickael.html">MICKAEL REILHAC</a></li>
+        			<li><a href="ludo.html">LUDOVIC CARLU</a></li>
+						</ul>
+      	  </li>		
+				</ul>
+				<ul>
+					<li><a href="contact.html"> CONTACT </a></li>
+				</ul>
+			</div>
+			<section class="titre">
+				<h1> Bienvenue </h1>
+				<h2> Sur notre Portfolio </h2>
+				<a onclick="$('.js-scrollTo')" class="lireplus" href="#Ludovic" > Lire plus </a>
+			</section>
+		</div>
+		<div id="Pagesuivante">
+			<div id="Ludovic">
+				<section> 
+					<h1> Ludovic CARLU</h1>
+					<p> J'ai 18 ans. Je suis actuellement en premiere annee de DUT Informatique. Je suis à la </p>
+					<p> recherche d'un stage en entreprise pour ma deuxième année afin de concrétiser </p>
+					<p> mon DUT Informatique. Sérieux, dynamique et motivé je cherche une entreprise </p>
+					<p> qui me permettrais d'accroitre mes connaissances et mon expérience en informatique et plus particulièrement </p>
+					<p> dans le domaine du bigdata afin de pouvoir me spécialiser dans ce domaine par la suite.</p>
+				</section>
+			</div>
+			<div id="Mickael">
+				<section>
+					<h1> Mickael REILHAC</h1>
+					<p>		Actuellement en première annéee du DUT informatique, je prévois de faire un stage</p>
+					<p>en entreprise pour ma deuxième année. Trés motivé, et sérieux, je cherche une entreprise</p>
+					<p>qui m'apporterait autant d'experience en pratique et en théorie. De plus, ce stage </p>
+					<p>me permettra de voir les différents domaines de l'informatique en industrie, afin</p>
+					<p>de savoir où se spécialiser.</p>	
+				</section>
+			</div>
+			<div id="Ali">
+				<section>
+					<h1> Ali OZCAN</h1>
+					<p>Actuellement étudiant en première année de DUT Informatique, j'ai l'intention de faire</p>
+					<p>un stage en entreprise lors de ma seconde année. Motivé, dynamique et sérieux, j'aimerais</p>
+					<p>mettre à profit mes connaissances dans une entreprise qui me permettrais de perfectionner</p>
+					<p>mes acquis en informatique.</p>
+				</section>
+			</div>
+			<footer>
+				<a href="https://twitter.com/home" class="twitter" target="_blank"></a>
+				<a href="https://fr-fr.facebook.com/" class="facebook" target="_blank"></a>
+				<a href="https://fr.linkedin.com/" class="linkedin" target="_blank"></a>
+				<a href="contact.html" >ludoviccarlu@gmail.com</a>
+				<a href="contact.html" >michael.reilhac@live.fr</a>
+				<a href="contact.html" >ozcan.ali94@gmail.com</a>
+			</footer>
+			
+		</div>
+	</body>
+</html>
