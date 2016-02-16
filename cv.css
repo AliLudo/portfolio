@@ -14,19 +14,19 @@ ul{
 	padding-bottom:10%
 }
 #Pageali{
-	background-size: cover;
+	/*background-size: cover;
 	background-attachment: fixed;
-	background-image:url("image_ali.jpg");
+	background-image:url("image_ali.jpg");*/
 	color:white;
 	text-align: center;
 	padding-bottom:10%
 }
 #Pagemicka{
-	background-size: cover;
+	/*background-size: cover;
 	background-attachment: fixed;
-	background-image:url("http://img1.mxstatic.com/wallpapers/5e25da9e9198bfe1a353335d80ffe9f0_large.jpeg");
-	color:white;
-	text-align: center;
+	background-image:url("http://img1.mxstatic.com/wallpapers/5e25da9e9198bfe1a353335d80ffe9f0_large.jpeg");*/
+	color:black;
+	/*text-align: center;*/
 	padding-bottom:10%
 }
 #titre {
@@ -44,8 +44,11 @@ ul{
 	padding-left: 5px;
 	float: left;
 }
+#Infoperso {
+	text-align:center;
+}
 
-#photoludo {
+#photoludo,#photomika {
 	width:150px;
 	height:140px;
 	float: right;
