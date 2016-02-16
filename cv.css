@@ -17,8 +17,8 @@ ul{
 	/*background-size: cover;
 	background-attachment: fixed;
 	background-image:url("image_ali.jpg");*/
-	color:white;
-	text-align: center;
+	color:black;
+	/*text-align: center;*/
 	padding-bottom:10%
 }
 #Pagemicka{
@@ -48,7 +48,7 @@ ul{
 	text-align:center;
 }
 
-#photoludo,#photomika {
+#photoludo,#photomika,#photoali{
 	width:150px;
 	height:140px;
 	float: right;
