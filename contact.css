@@ -1,16 +1,60 @@
 body {
 	font-family: Helvetica,Arial,serif;	
-	background-image:url("http://img1.mxstatic.com/wallpapers/27555fdf69f74e30d639dffb43fbd06d_large.jpeg");
+	/*background-image:url("http://img1.mxstatic.com/wallpapers/27555fdf69f74e30d639dffb43fbd06d_large.jpeg");
 	background-repeat:no-repeat;
-	background-size:cover;
+	background-size:cover;*/
+}
+html {
+	width:100%;
+	height:100%;
+	background-size: cover;
+	background-attachment: fixed;
+	/*background-image:url("http://img1.mxstatic.com/wallpapers/27555fdf69f74e30d639dffb43fbd06d_large.jpeg");*/
+	background-image:url("http://img1.mxstatic.com/wallpapers/1c3a89d865f64b54d3825dc27dbf7816_large.jpeg");
 }
 
 @font-face {
 	font-family: 'GeosansLightRegular';
 	src:url('GeosansLight.ttf');
 }
-.menu {
+
+iframe {
+  margin-top: 20px;
+  width:500px;
+  height:300px; 
+}
+#infoiut{
+	text-align: center;
+}
+
+#infoludo,#infomika,#infoali {
+	border-radius:10px;
+	border : solid 1px black;
+	background:silver;
+	width:300px;
+	padding-left: 10px;
+	display : inline-block ;
+	margin-right : 20px;
+	margin-top : 40px;
+	margin-left:50px;
 	
+}
+#infoali {
+	margin-right: 0px;
+}
+
+.twitter {
+	background: transparent url("http://ahamoment-files.s3.amazonaws.com/assets/videos/icon-twitter-eeddaf5f53964c6f9ba9692dbb5cdc42.png") no-repeat ;
+	padding:15px;
+}
+.linkedin {
+	background: transparent url("http://www.dupagehabitat.org/images/LinkedInIcon_30x30.png") no-repeat;
+	padding:15px;
+	margin-right: 15px;
+}
+
+/* Pour le menu */
+.menu {
 	top:0px;
 	left:0px;
 	font-size:13px;
@@ -18,77 +62,30 @@ body {
 	width:100%;
 	background-color:#262020;
 	opacity:0.7;
-	
 }
-
-.menu div {
-	display:inline-block;
-	padding:1%;
-	color:white;	
-	text-decoration:none;
-}	
-
-.titre { 
-	font-family: "GeosansLightRegular";
-	padding-top:10%;
-	text-transform: uppercase;
+.menu a {
+	text-decoration: none;
+	color: white;
 	font-size: 20px;
-	text-align: center;
-	letter-spacing:5px; 
-	color : white;
-	margin-top : 150px;
+	padding: 30px;
+	display:inline-block;
 }
-
-.lireplus:hover {
-	color:yellow;
+.menu ul {
+	display: inline;
+	margin: 0;
+	padding: 0;
 }
-
-div a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    padding: 30px;
-    display:inline-block;
-}
-ul {
-  display: inline;
-  margin: 0;
-  padding: 0;
-}
-ul li {display: inline-block;}
-div div a:hover {background: black;}
-li:hover ul {display: block;}
-ul li ul {
-	position: absolute;
-  width: 164px;
-  display: none;
-}
-ul li ul li { 
-  background: #555; 
-  display: block; 
-}
-ul li ul li a {display:block;} 
-ul li ul li a:hover {background: #666;}
+.menu ul li {display: inline-block;}
 .menu a:hover {background: black;}
-iframe {
-  margin-top: 20px;
-  width:500px;
-  height:300px;
-  frameborder:20px; 
-  scrolling :"no"; 
-  marginheight:20px;
-  marginwidth:20px; 
+.menu li:hover ul {display: block;}
+.menu ul li ul {
+	position: absolute;
+	width: 164px;
+	display: none;
 }
-article {
-  color:white;
-	width:100%;
+.menu ul li ul li { 
+	background: #555; 
+	display: block; 
 }
-#infoiut, #infoludo {
-	float : left;
-}
-#infoiut, #infomika, #infoludo, #infoali {
-	margin-right:100px;
-}
-#infomika, #infoali {
-	float:  left;
-}
+.menu ul li ul li a {display:block;} 
+.menu ul li ul li a:hover {background: #666;}
