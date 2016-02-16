@@ -24,3 +24,11 @@ section {
 		margin-bottom: 40px;
 }
 
+aside {
+	display:none;
+}
+img {
+	width:150px;
+	height:140px;
+	float: right;
+}
