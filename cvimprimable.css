@@ -13,13 +13,13 @@ ul {
 	font-size:20px;
 	text-align:center;
 }
-section h1 {
+#Formation h1, #Exppro h1,#Competence h1,#langue h1,#ca h1 {
 	font-size:20px;
 	margin-bottom:5px ;
 	border-bottom: solid 1px;
 	color:#01A9DB;
 }
-section {
+#Infoperso, #Formation, #Exppro,#Competence,#langue,#ca{
 		font-size:12px;
 		margin-bottom: 40px;
 }
