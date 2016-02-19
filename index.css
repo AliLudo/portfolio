@@ -4,23 +4,22 @@ body {
 }
 
 
-
 @font-face {
 	font-family: 'GeosansLightRegular';
 	src:url('GeosansLight.ttf');
 }
-img{	
+#galerie{	
 	width:200px;
 	border:solid green;
 }
 .PageIntro {
-	background-image:src("http://img1.mxstatic.com/wallpapers/5ccd3f1a8a76f74076b4dd03e97e30bd_large.jpeg");
 	position:absolute;
 	top:0px;
 	bottom:0px;
 	left:0px;
 	right:0px;
   border:solid red;
+	background-image:src("http://img1.goodfon.ru/original/2558x1562/0/20/temno-ochen-temno.jpg");
 }
 #Ludovic {
 	margin-top:-70%;
