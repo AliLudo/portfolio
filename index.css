@@ -10,11 +10,12 @@ body {
 	
 }
 
-
+#galerie {
+text-align: center;
+}
 #galerie img{	
 	width:200px;
-	border:solid white 5px;
-	margin:0;
+	border:solid grey 5px;
 }
 
 .PageIntro {
@@ -23,8 +24,7 @@ body {
 	bottom:0px;
 	left:0px;
 	right:0px;
-  border:solid red;
-	background-image:url("http://img1.goodfon.ru/original/2558x1562/0/20/temno-ochen-temno.jpg");
+	background-image:url("http://www.e.lito.fr/interface/fond_index_elito.jpg");
   background-size:cover;
 }
 #Ludovic {
@@ -69,7 +69,7 @@ body {
 	font-size: 20px;
 	text-align: center;
 	letter-spacing:5px; 
-	color:white;
+	color:black;
 }
 
 .menu a {
