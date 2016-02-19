@@ -3,18 +3,25 @@ body {
 	font-family: Helvetica,Arial,serif;	
 }
 
+
+
 @font-face {
 	font-family: 'GeosansLightRegular';
 	src:url('GeosansLight.ttf');
 }
-img{
-	width:100%;
+img{	
+	width:200px;
+	border:solid green;
 }
-.PageIntro{
-	margin:-10px;
+.PageIntro {
+	background-image:src("http://img1.mxstatic.com/wallpapers/5ccd3f1a8a76f74076b4dd03e97e30bd_large.jpeg");
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+  border:solid red;
 }
-
-
 #Ludovic {
 	margin-top:-70%;
 	color:white;
@@ -51,15 +58,12 @@ img{
 }	
 
 .titre { 
-	right:100px;
-	left:100px;
-	margin-top:-40%;
+	border:solid yellow;
 	font-family: "GeosansLightRegular";
 	text-transform: uppercase;
 	font-size: 20px;
 	text-align: center;
 	letter-spacing:5px; 
-	color : white;
 }
 
 .lireplus:hover {
