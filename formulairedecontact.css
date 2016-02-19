@@ -1,0 +1,97 @@
+body {
+	font-family: Helvetica,Arial,serif;	
+	/*background-image:url("http://img1.mxstatic.com/wallpapers/27555fdf69f74e30d639dffb43fbd06d_large.jpeg");
+	background-repeat:no-repeat;
+	background-size:cover;*/
+}
+html {
+	width:100%;
+	height:100%;
+	background-size: cover;
+	background-attachment: fixed;
+	/*background-image:url("http://img1.mxstatic.com/wallpapers/27555fdf69f74e30d639dffb43fbd06d_large.jpeg");*/
+	background-image:url("http://img1.mxstatic.com/wallpapers/1c3a89d865f64b54d3825dc27dbf7816_large.jpeg");
+}
+header {
+	text-align:center;
+}
+footer {
+	margin-top: 40px;
+}
+
+footer p {
+	display:inline;
+	margin-right: 15px;
+}
+
+/* Pour le formulaire */
+form {  
+    margin: 0 auto;
+	width: 600px;   
+    padding: 15px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+}
+form div {
+    margin-top: 15px;
+}
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+input, textarea {
+
+    width:300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    border: 1px solid #999;
+}
+
+textarea {
+    
+    vertical-align: top;
+    height: 80px;
+    resize: vertical;
+}
+.button {
+    padding-left: 150px;
+}
+
+/* Pour le menu */
+.menu {
+	top:0px;
+	left:0px;
+	font-size:13px;
+	text-align :center;
+	width:100%;
+	background-color:#262020;
+}
+.menu a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 30px;
+	display:inline-block;
+}
+.menu ul {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+.menu ul li {display: inline-block;}
+.menu a:hover {background: black;}
+.menu li:hover ul {display: block;}
+.menu ul li ul {
+	position: absolute;
+	width: 164px;
+	display: none;
+}
+.menu ul li ul li { 
+	background: #555; 
+	display: block; 
+}
+.menu ul li ul li a {display:block;} 
+.menu ul li ul li a:hover {background: #666;}
