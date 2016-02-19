@@ -32,3 +32,6 @@ img {
 	height:140px;
 	float: right;
 }
+footer {
+	display : none;
+}
