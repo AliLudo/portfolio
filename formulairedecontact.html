@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="formulairecontact.css" >
+	</head>
+	<body>
+		<nav class="menu">
+			<ul>
+				<li><a href="index.html"> ACCUEIL </a></li>
+			</ul>
+			<ul>
+				<li> <a href="#"> A PROPOS </a>
+					<ul>
+						<li><a href="ali.html">ALI OZCAN</a></li>
+						<li><a href="mickael.html">MICKAEL REILHAC</a></li>
+						<li><a href="ludo.html">LUDOVIC CARLU</a></li>
+					</ul>
+				</li>		
+			</ul>
+			<ul>
+				<li><a href="contact.html" > CONTACT </a></li>
+			</ul>
+		</nav>
+		<header> <h1> Pour nous contacter vous pouvez utiliser ce formulaire </h1> </header>
+		<form action="http://www.iut-fbleau.fr/sitebp/post.php" method="post">
+			<div>
+				<label for="nom">Votre nom :</label>
+				<input type="text" id="nom" name="nom" required />
+			</div>
+			<div>
+				<label for="prenom"> Votre prenom : </label>
+				<input type="text" id="prenom" name="prenom" required />
+			</div>
+			<div>
+				<label for="votreemail">Votre Email :</label>
+				<input type="email" id="maildenvoi" name="mailenvoi" required />
+			</div>
+			<div>
+				<label for="destinataire">Email destinataire : </label>
+				<input type="email" id="maildestinataire" name="destinataire" required />
+			</div>
+			<div>
+				<label for="message">Message :</label>
+				<textarea id="message" name="message" required ></textarea>
+			</div>
+    
+			<div class="button">
+				<button type="submit">Envoyer votre message</button>
+			</div>
+		</form>
+		<footer>
+			<p> Nos emails : </p>
+			<p> CARLU Ludovic : ludoviccarlu@gmail.com </p>
+			<p> REILHAC Mickael : michael.reilhac@live.fr </p>
+			<p> OZCAN Ali : ozcan.ali94@gmail.com </p>
+		</footer>
+	</body>
+</html>
