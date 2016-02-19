@@ -1,6 +1,8 @@
 /*https://www.web-font-generator.com/results?dir=40fbb74158fa999227e27623af604bd9*/
 body {
-	font-family: Helvetica,Arial,serif;	
+	font-family: Helvetica,Arial,serif;
+	background-image:url("http://www.e.lito.fr/interface/fond_index_elito.jpg");
+  background-size:cover;
 }
 
 
@@ -20,15 +22,6 @@ text-align: center;
 	border:solid black 10px ;
 }
 
-.PageIntro {
-	position:absolute;
-	top:0px;
-	bottom:0px;
-	left:0px;
-	right:0px;
-	background-image:url("http://www.e.lito.fr/interface/fond_index_elito.jpg");
-  background-size:cover;
-}
 #Ludovic {
 	margin-top:-70%;
 	color:white;
