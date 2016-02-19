@@ -6,12 +6,17 @@ body {
 
 @font-face {
 	font-family: 'GeosansLightRegular';
-	src:url('GeosansLight.ttf');
+	src:url('GeosansLight.ttf');	
+	
 }
+
+
 #galerie img{	
 	width:200px;
-	border:solid green;
+	border:solid white 5px;
+	margin:0;
 }
+
 .PageIntro {
 	position:absolute;
 	top:0px;
@@ -58,7 +63,7 @@ body {
 }	
 
 .titre { 
-	border:solid yellow;
+	margin-top:25%;
 	font-family: "GeosansLightRegular";
 	text-transform: uppercase;
 	font-size: 20px;
