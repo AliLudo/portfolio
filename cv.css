@@ -13,28 +13,6 @@ html {
 	background-image:url("http://img1.mxstatic.com/wallpapers/1c3a89d865f64b54d3825dc27dbf7816_large.jpeg");
 }
 
-#Pageludo {
-
-	color:black;
-	padding-bottom:20%;
-	
-}
-#Pageali{
-	/*background-size: cover;
-	background-attachment: fixed;
-	background-image:url("image_ali.jpg");*/
-	color:black;
-	/*text-align: center;*/
-	padding-bottom:10%
-}
-#Pagemicka{
-	/*background-size: cover;
-	background-attachment: fixed;
-	background-image:url("http://img1.mxstatic.com/wallpapers/5e25da9e9198bfe1a353335d80ffe9f0_large.jpeg");*/
-	color:black;
-	/*text-align: center;*/
-	padding-bottom:10%
-}
 #titre {
 	margin-bottom: 60px;
 	font-size:20px;
@@ -70,6 +48,7 @@ aside {
 	width:350px;
 	display:inline-block;
 	vertical-align:top;
+	margin-bottom:30px;
 }
 /*aside,article {
 	display:inline-block;
