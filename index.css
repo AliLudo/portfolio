@@ -14,8 +14,10 @@ body {
 text-align: center;
 }
 #galerie img{	
-	width:200px;
-	border:solid grey 5px;
+	margin-top:5%;
+	width:900px;
+	height:500px;
+	border:solid black 10px ;
 }
 
 .PageIntro {
@@ -63,7 +65,7 @@ text-align: center;
 }	
 
 .titre { 
-	margin-top:25%;
+	margin-top:15%;
 	font-family: "GeosansLightRegular";
 	text-transform: uppercase;
 	font-size: 20px;
