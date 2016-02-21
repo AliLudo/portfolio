@@ -94,7 +94,7 @@ ul {
   padding: 0;
 }
 ul li {display: inline-block;}
-div div a:hover {background: black;}
+nav a:hover {background: black;}
 li:hover ul {display: block;}
 ul li ul {
 	position: absolute;
@@ -109,22 +109,49 @@ ul li ul li a {display:block;}
 ul li ul li a:hover {background: #666;}
 
 footer {
-	text-align : center;
+	position:absolute;
+	left:0px;
+	right:0px;
+	margin-top:10%;
+	background-color:#262020;
+	
+}
+footer div:first-child {
+  float:right;
+}
+footer h {
+	padding-left:3%;
+	padding-right:15%;
+  color:white;
+}
+
+footer .mail{
+	display:block;
+	padding:1%;
+	text-decoration: none;
+	color:white;
+	width:160px;
+}
+
+.twitter, .linkedin, .facebook {
 	margin-top:5%;
+	width:30px;
+	height:30px;	
+	margin-left:10%;
+	display:inline-block;
+	
 }
-footer a {
-	padding:20px;
-}
+
 .twitter {
 	background: transparent url("http://ahamoment-files.s3.amazonaws.com/assets/videos/icon-twitter-eeddaf5f53964c6f9ba9692dbb5cdc42.png") no-repeat ;
-	margin-right:15px;
+	
 }
 .linkedin {
 	background: transparent url("http://www.dupagehabitat.org/images/LinkedInIcon_30x30.png") no-repeat;
-	margin-right:15px;
+
 }
 .facebook {
 	background: transparent url("http://www.southwickassociates.com/wp-content/uploads/2012/07/f_logo-30x30.png") no-repeat;
-	margin-right : 20px;
+
 }
 
