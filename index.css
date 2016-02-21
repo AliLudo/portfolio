@@ -19,13 +19,23 @@ html{
 }
 
 #galerie {
-text-align: center;
+	height:700px;
+  text-align: center;
+	background-image:url("http://www.ikaconseil.com/wp-content/uploads/2015/04/MacBook_Pro_Retina1.png");
+	background-repeat: no-repeat;
+	background-size:900px 510px;
+	background-position:center top;
+	
+}
+img{
+	padding:1%;
 }
 #galerie img{	
-	margin-top:5%;
-	width:700px;
-	height:350px;
-	border:solid black 10px ;
+	margin-left:4px;
+	margin-top:30px;
+	width:620px;
+	height:378px;
+	
 }
 
 #Ludovic {
@@ -46,7 +56,7 @@ text-align: center;
 }
 
 .menu {
-	font-size:13px;
+	font-size:12px;
 	text-align :center;
 	background-color:#262020;
 	
@@ -107,25 +117,24 @@ footer {
 	position:absolute;
 	left:0px;
 	right:0px;
-	padding-top:50px;
+	padding-top:20px;
 	margin-top:20%;
-	background-color:#262020;
-	
-}
+  }
+
 footer div:first-child {
   float:right;
 }
 footer h {
 	padding-left:3%;
 	padding-right:15%;
-  color:white;
+  color:black;
 }
 
 footer .mail{
 	display:block;
 	margin: 2%;
 	text-decoration: none;
-	color:white;
+	color:black;
 	width:160px;
 	height: :10px;
 }
@@ -151,4 +160,4 @@ footer .mail{
 	background: transparent url("http://www.southwickassociates.com/wp-content/uploads/2012/07/f_logo-30x30.png") no-repeat;
 
 }
-div a:hover{color:yellow}
+div a:hover{color:grey}
