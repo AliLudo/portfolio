@@ -113,6 +113,11 @@ ul li ul li {
 ul li ul li a {display:block;} 
 ul li ul li a:hover {background: #666;}
 
+div a {
+	text-align: center;
+}
+
+
 footer {
 	position:absolute;
 	left:0px;
@@ -161,4 +166,7 @@ footer .mail{
 	background: transparent url("http://www.southwickassociates.com/wp-content/uploads/2012/07/f_logo-30x30.png") no-repeat;
 
 }
-div a:hover{color:grey}
+div a:hover {
+	color:grey;
+}
+
