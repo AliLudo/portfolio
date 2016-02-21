@@ -131,6 +131,7 @@ footer h {
 }
 
 footer .mail{
+	padding-left:10px;
 	display:block;
 	margin: 2%;
 	text-decoration: none;
